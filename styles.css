@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #bebebe;
+}
+
+:root {
+  --main: #fc0000;
+}
+* {
+  font-family: "Poppins", serif;
+  transition: 0.2s;
+}
+*::selection {
+  background-color: var(--main);
+  color: #000;
+}
+
+.btn {
+  width: 300px;
+  background: var(--main);
+  color: #fff !important;
+  border-radius: 15px !important;
+  transition: 0.3s;
+  width: 310px;
+}
+
+.btn:hover {
+  letter-spacing: 3px;
+}
+
+html ::-webkit-scrollbar {
+  width: 10px;
+}
+
+html ::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+
+html ::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* navbar */
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px #ffffff solid;
+}
+
+.navbar-brand {
+  font-size: 3em;
+  color: aliceblue !important;
+  padding: 0 60px;
+}
+
+.navbar-brand span {
+  font-size: 1.6em;
+  color: var(--main) !important;
+  font-weight: 700;
+}
+.navbar-nav {
+  padding: 0px 60px;
+  margin-top: 40px;
+}
+
+.nav-link {
+  color: #ffff !important;
+}
+
+.nav-link:hover {
+  color: var(--main) !important;
+}
+/* navbar */
+
+/* Header */
+.header {
+  position: relative;
+}
+
+.header img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.5;
+}
+
+.header .content {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000;
+  color: #fff;
+}
+
+.header .content h6 {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.header .content h6 span {
+  font-size: 55px;
+  color: var(--main);
+}
+
+.header #counter {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+/* Header */
+
+/* about Us bang Doel section */
+.about {
+  margin: 200px auto;
+}
+
+.about img {
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about .col-sm-4 {
+  margin-top: 70px;
+}
+
+.about .col-sm-4 h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--main);
+}
+
+.about .col-sm-4 h6 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.about .second_row {
+  background: #000;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.about .second_row h6 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.about .second_row h6 span {
+  font-size: 55px;
+  font-weight: 800;
+  color: var(--main);
+}
+
+/* custom Section Start */
+/* .custom {
+  margin-bottom: 200px;
+} */
+.custom .box {
+  overflow: hidden;
+}
+.custom img {
+  width: 100vw !important;
+}
+.custom .box:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.custom .col-sm-4 h6 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+.custom .col-sm-4 p {
+  font-size: 13px;
+  margin: 10px auto;
+}
+
+/* Custom Section End */
